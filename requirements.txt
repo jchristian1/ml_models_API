@@ -5,3 +5,4 @@ psycopg2
 nltk
 flask_cors
 sklearn
+flask_sqlalchemy
