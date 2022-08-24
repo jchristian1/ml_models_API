@@ -9,7 +9,7 @@ class Spam_detection(Resource):
             help='This field cannot be left blank.'
         )     
     
-    def get(self):
+    def post(self):
         
         data = Spam_detection.parser.parse_args()
         data = [data.sentence]

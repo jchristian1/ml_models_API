@@ -14,7 +14,7 @@ class Sentiment(Resource):
             help='We need a label to see how the model perform.'
         )        
     
-    def get(self):
+    def post(self):
         
         data = Sentiment.parser.parse_args()        
         
